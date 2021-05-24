@@ -1,0 +1,97 @@
+.main-container {
+    background: white;
+}
+
+.filters {
+    padding-top: 94px;
+    text-align: center;
+}
+
+.filters__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filters__box li {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.filters__box li:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.filters__box img {
+    display: block;
+}
+
+.filters__card {
+    display: flex;
+}
+
+.filters__card-shadow {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.filters__card-shadow:hover,
+.filters__card-shadow:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.filters__card-shadow:hover .filters__position {
+    opacity: 0.9;
+    transform: translateY(0);
+}
+
+.filters__opacity {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.filters__position {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 100%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition-property: transform, opacity;
+    transition-duration: 250ms;
+    background-color: rgba(33, 150, 243, 0.9);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.filters__position p {
+    text-align: start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.filters__info {
+    padding: 20px 24px;
+    text-align: start;
+    border: 1px solid #EEEEEE;
+}
+
+.filters__text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.filters__text-p {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}

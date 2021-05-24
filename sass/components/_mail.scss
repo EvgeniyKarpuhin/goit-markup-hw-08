@@ -1,0 +1,36 @@
+.footer__mail {
+    margin-left: 108px;  
+}
+
+.footer__mail h4 {
+    margin-top: 10px;
+}
+
+.footer__input-text {
+    margin-top: 20px;
+}
+
+.footer__mail-type {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #2F303A;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 8px;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__mail-type::placeholder {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__mail-type:focus-within {
+    outline: none;
+}

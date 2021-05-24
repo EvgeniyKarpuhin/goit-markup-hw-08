@@ -1,0 +1,31 @@
+.clients {
+    padding-top: 94px;
+}
+
+.clients__type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients__href {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition-property: color, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.clients__href:hover,
+.clients__href:focus {
+    color: #2196F3;
+    border: 1px solid #2196F3; 
+}

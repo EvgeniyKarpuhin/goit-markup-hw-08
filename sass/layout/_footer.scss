@@ -1,0 +1,42 @@
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+.footer__type li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+}
+
+.footer__link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__container {
+    display: flex;
+}

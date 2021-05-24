@@ -1,0 +1,30 @@
+.head__nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.head__logo {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    margin-right: 93px;
+}
+
+.head__logo span {
+    color: black;
+}
+
+.footer__logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer__logo span {
+    color: white;
+}

@@ -16,12 +16,16 @@
     transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.foot__social-size:hover,
-.foot__social-size:focus {
-    color: white;
-    background-color: #2196F3
+    &:hover {
+        color: white;
+        background-color: #2196F3
+    }
+
+    &:focus {
+        color: white;
+        background-color: #2196F3
+    }
 }
 
 .soc__icons {
@@ -42,8 +46,11 @@
     justify-content: space-between;
 }
 
-.footer__social-modern:not(:last-child) {
+.footer__social-modern {
+
+    &:not(:last-child) {
     margin-right: 10px;
+    }
 }
 
 .footer__social-size {
@@ -58,9 +65,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer__social-size:hover,
-.footer__social-size:focus {
-    background-color: #2196F3
+    &:hover {
+        background-color: #2196F3
+    }
+
+    &:focus {
+        background-color: #2196F3
+    }
 }

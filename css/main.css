@@ -184,7 +184,10 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head__website:hover,
+.head__website:hover {
+  color: #2196F3;
+}
+
 .head__website:focus {
   color: #2196F3;
 }
@@ -252,7 +255,11 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.foot__social-size:hover,
+.foot__social-size:hover {
+  color: white;
+  background-color: #2196F3;
+}
+
 .foot__social-size:focus {
   color: white;
   background-color: #2196F3;
@@ -294,7 +301,10 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__social-size:hover,
+.footer__social-size:hover {
+  background-color: #2196F3;
+}
+
 .footer__social-size:focus {
   background-color: #2196F3;
 }

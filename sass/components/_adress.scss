@@ -10,10 +10,10 @@
 
 .head__adress li {
     margin-right: 50px;
-}
 
-.head__adress li:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .head__link {
@@ -28,11 +28,14 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.head__link:hover,
-.head__link:focus {
-    color: #2196F3;
+    &:hover {
+        color: #2196F3;
+    }
+
+    &:focus {
+        color: #2196F3;
+    }
 }
 
 .head__svg-icon {

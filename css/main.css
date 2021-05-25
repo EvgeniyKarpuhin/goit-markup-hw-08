@@ -220,7 +220,10 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head__link:hover,
+.head__link:hover {
+  color: #2196F3;
+}
+
 .head__link:focus {
   color: #2196F3;
 }

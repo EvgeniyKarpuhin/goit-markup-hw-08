@@ -906,16 +906,6 @@ ul {
   color: #2196F3;
 }
 
-.form__checkbox:checked + .form__check {
-  background-image: url(../images/social/svg/vector.svg);
-  background-repeat: no-repeat;
-  background-color: #2196F3;
-  background-position: center;
-  border-color: #2196F3;
-  background-size: contain;
-  background-origin: border-box;
-}
-
 .checkbox-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -933,5 +923,15 @@ ul {
   position: relative;
   display: inline-block;
   border-radius: 2px;
+}
+
+.form__checkbox:checked + .form__check {
+  background-image: url(../images/social/svg/vector.svg);
+  background-repeat: no-repeat;
+  background-color: #2196F3;
+  background-position: center;
+  border-color: #2196F3;
+  background-size: contain;
+  background-origin: border-box;
 }
 /*# sourceMappingURL=main.css.map */

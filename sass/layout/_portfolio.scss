@@ -42,13 +42,6 @@
     }
 }
 
-.filters__position {
-    .filters__card-shadow:hover & {
-    opacity: 0.9;
-    transform: translateY(0);
-    }
-}
-
 .filters__opacity {
     position: relative;
     display: flex;
@@ -69,6 +62,10 @@
     background-color: rgba(33, 150, 243, 0.9);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
+    .filters__card-shadow:hover & {
+        opacity: 0.9;
+        transform: translateY(0);
+        }
 }
 
 .filters__position p {

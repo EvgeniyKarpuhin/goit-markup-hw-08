@@ -15,8 +15,10 @@
     margin-top: 20px;
 }
 
-.footer__type li:not(:last-child) {
+.footer__type li {
+    &:not(:last-child) {
     margin-bottom: 9px;
+    }
 }
 
 .footer__adress {

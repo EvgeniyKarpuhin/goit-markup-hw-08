@@ -66,3 +66,9 @@
     letter-spacing: 0.03em;
     color: #212121;
 }
+
+@media screen and (max-width: 479px) {
+    .modal h4 {
+        font-size: 15px;
+    }
+}

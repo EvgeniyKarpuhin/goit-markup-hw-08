@@ -19,8 +19,8 @@ a {
 
 h1 {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -93,14 +93,26 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .container h1 {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+
 .head {
   background: white;
 }
 
 .test {
   border-bottom: 1px solid #ECECEC;
-  padding-top: 24px;
-  padding-bottom: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .test {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .test .container {
@@ -194,11 +206,23 @@ ul {
 
 .head__adress {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   display: inline-flex;
+}
+
+@media screen and (min-width: 768px) {
+  .head__adress {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .head__adress {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .head__adress li {
@@ -207,6 +231,19 @@ ul {
 
 .head__adress li:last-child {
   margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .head__adress li {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .head__adress li {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .head__link {
@@ -829,6 +866,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+@media screen and (max-width: 479px) {
+  .modal h4 {
+    font-size: 15px;
+  }
 }
 
 .form {

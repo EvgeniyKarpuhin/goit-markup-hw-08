@@ -1,11 +1,23 @@
 .head__adress {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    display: inline-flex;
-    
+    display: inline-flex; 
+}
+
+@media screen and (min-width: 768px) {
+    .head__adress {
+        font-size:12px;
+        line-height: 1.16;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .head__adress {
+        font-size:14px;
+        line-height: 1.14;
+        // margin-left: auto;
+    }
 }
 
 .head__adress li {
@@ -13,6 +25,19 @@
 
     &:last-child {
         margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .head__adress li {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .head__adress li {
+        flex-direction: row;
+        align-items: center;
     }
 }
 

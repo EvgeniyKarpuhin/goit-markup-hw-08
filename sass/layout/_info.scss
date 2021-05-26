@@ -27,6 +27,12 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 767.9px) {
+    .info__title {
+        text-align: center;
+    }
+}
+
 .info__text {
     font-size: 14px;
     line-height: 1.71;

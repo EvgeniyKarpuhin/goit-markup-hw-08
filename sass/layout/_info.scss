@@ -58,11 +58,18 @@
     justify-content: center;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+    .info__section {
+        margin-bottom:20px
+    }
+}
+
 .info__title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 767.9px) {
@@ -74,5 +81,4 @@
 .info__text {
     font-size: 14px;
     line-height: 1.71;
-    width: 270px;
 }

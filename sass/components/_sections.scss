@@ -3,7 +3,7 @@
 }
 
 .decision {
-    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(/images/mobile/mobile-head-1x.jpg);
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/mobile/mobile-head-1x.jpg);
     background-repeat: no-repeat;
     text-align: center;
     padding: 200px 15px;
@@ -15,7 +15,7 @@
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .decision {
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url ("../images/mobile/mobile-head-2x.jpg");
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/mobile/mobile-head-2x.jpg);
     }
 }
 
@@ -45,9 +45,7 @@
 
 @media screen and (min-width: 1200px) {
     .decision {
-        height:600px;
         max-width: 1600px;
-        padding: 200px 15px
     }
 }
 
@@ -55,9 +53,17 @@
     padding-top: 94px;
     background-color: white;
 }
+
 .pictures {
     background-color: white;
 }
+
+@media screen and (max-width: 1199px) {
+    .pictures {
+        display:none
+    }
+}
+
 .foot {
     padding-top: 94px;
     background-color: #F5F4FA;

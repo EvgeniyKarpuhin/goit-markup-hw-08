@@ -4,15 +4,8 @@
 
 .test {
     border-bottom: 1px solid #ECECEC;
-    padding-top: 24px;
-    padding-bottom:25px;
-}
-
-@media screen and (min-width: 1200px) {
-    .test {
-        // padding-top: 24px;
-        // padding-bottom:25px;
-    }
+    display: flex;
+    height: 80px;
 }
 
 .test .container {

@@ -112,8 +112,8 @@ img {
 
 .test {
   border-bottom: 1px solid #ECECEC;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  display: flex;
+  height: 80px;
 }
 
 .test .container {
@@ -133,6 +133,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2196F3;
+  margin-right: 93px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -218,6 +219,10 @@ img {
   color: #2196F3;
 }
 
+.head__block {
+  margin-left: auto;
+}
+
 .head__adress {
   font-style: normal;
   letter-spacing: 0.03em;
@@ -243,6 +248,12 @@ img {
 
 .head__adress li:last-child {
   margin-right: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .head__adress li {
+    margin-right: 50px;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {

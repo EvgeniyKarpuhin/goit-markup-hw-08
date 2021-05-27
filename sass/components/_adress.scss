@@ -1,3 +1,7 @@
+.head__block {
+    margin-left: auto;
+}
+
 .head__adress {
     font-style: normal;
     letter-spacing: 0.03em;
@@ -24,6 +28,12 @@
 .head__adress li {
     &:last-child {
         margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .head__adress li {
+        margin-right: 50px;
     }
 }
 

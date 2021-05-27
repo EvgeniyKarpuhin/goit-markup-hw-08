@@ -448,7 +448,7 @@ ul {
 }
 
 .decision {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/social/Img-logo-head.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/mobile/mobile-head-1x.jpg);
   background-repeat: no-repeat;
   text-align: center;
   padding: 200px 15px;
@@ -456,6 +456,44 @@ ul {
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .decision {
+    background-image: linear-gradient(var(--hero-gradient)), url("/images/mobile/mobile-head-2x.jpg");
+  }
+}
+
+@media (min-width: 481px) {
+  .decision {
+    background-image: linear-gradient(var(--hero-gradient)), url("/images/tablet/tablet-head-1x.jpg");
+  }
+}
+
+@media (min-width: 481px) and (min-device-pixel-ratio: 2), (min-width: 481px) and (min-resolution: 192dpi), (min-width: 481px) and (min-resolution: 2dppx) {
+  .decision {
+    background-image: linear-gradient(var(--hero-gradient)), url("/images/tablet/tablet-head-2x.jpg");
+  }
+}
+
+@media (min-width: 768px) {
+  .decision {
+    background-image: linear-gradient(var(--hero-gradient)), url("/images/desktop/desktop-head-1x.jpg");
+  }
+}
+
+@media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
+  .decision {
+    background-image: linear-gradient(var(--hero-gradient)), url("/images/desktop/desktop-head-2x.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .decision {
+    height: 600px;
+    max-width: 1600px;
+    padding: 200px 15px;
+  }
 }
 
 .info {
@@ -478,9 +516,11 @@ ul {
   justify-content: space-between;
 }
 
-.pictures__list {
-  position: relative;
-  height: 294px;
+@media screen and (min-width: 768px) {
+  .main-type {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .info__section {
@@ -515,6 +555,11 @@ ul {
 
 .section h2 {
   margin-bottom: 50px;
+}
+
+.pictures__list {
+  position: relative;
+  height: 294px;
 }
 
 .pictures__text {

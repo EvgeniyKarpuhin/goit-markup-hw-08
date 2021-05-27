@@ -4,9 +4,11 @@
     justify-content: space-between;
 }
 
-.pictures__list {
-    position: relative;
-    height: 294px;
+@media screen and (min-width: 768px) {
+    .main-type {
+        display:flex;
+        flex-wrap: wrap
+    }
 }
 
 .info__section {

@@ -121,7 +121,6 @@ img {
 }
 
 .test .container {
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -137,6 +136,7 @@ img {
     justify-content: space-between;
     color: #212121;
     width: 100%;
+    height: 80px;
   }
 }
 
@@ -241,17 +241,13 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
-}
-
-.mobile-menu__icon {
-  width: 40px;
-  height: 40px;
 }
 
 .mobile-menu__icon body.modal-open {

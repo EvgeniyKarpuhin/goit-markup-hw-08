@@ -786,6 +786,8 @@ img {
 }
 
 .filters__card-shadow {
+  display: flex;
+  flex-direction: column;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -801,6 +803,19 @@ img {
   position: relative;
   display: flex;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .filters__opacity {
+    width: 354px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filters__opacity {
+    width: 370px;
+  }
 }
 
 .filters__position {
@@ -839,6 +854,7 @@ img {
   padding: 20px 24px;
   text-align: start;
   border: 1px solid #EEEEEE;
+  flex-grow: 1;
 }
 
 .filters__text {

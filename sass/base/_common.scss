@@ -5,6 +5,10 @@ body {
     padding: 0;
   }
 
+  body body.is-open {
+    overflow: hidden;
+}
+
   p {
     letter-spacing: 0.03em;
     color: #757575;

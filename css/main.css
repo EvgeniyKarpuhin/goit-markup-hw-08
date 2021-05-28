@@ -275,6 +275,12 @@ img {
   }
 }
 
+.mobile-menu__link {
+  text-decoration: none;
+  color: var(--accent-cl);
+  display: inline;
+}
+
 .head__block {
   margin-left: auto;
 }

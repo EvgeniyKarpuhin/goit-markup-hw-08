@@ -49,3 +49,9 @@
         align-content: center;
     }
 }
+
+.mobile-menu__link {
+    text-decoration: none;
+    color: var(--accent-cl);
+    display: inline
+}

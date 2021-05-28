@@ -393,16 +393,42 @@ img {
 }
 
 .filters__bottoms {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .filters__bottoms {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filters__bottoms {
+    margin-bottom: 50px;
+  }
 }
 
 .filters__bottoms li {
   display: inline-flex;
   margin-right: 8px;
+  margin-bottom: 15px;
 }
 
 .filters__bottoms li:last-child {
   margin-right: 0;
+}
+
+.filters__bottoms li:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .filters__bottoms li {
+    margin-bottom: 0;
+  }
 }
 
 .filters__btn {

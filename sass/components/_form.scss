@@ -79,13 +79,13 @@
 
 @media screen and (max-width: 479px) {
     .form__area {
-        height:90px;
+        min-height: 90px;
     }
 }
 
 @media screen and (min-width: 480px) {
     .form__area {
-        height:120px;
+        min-height: 120px;
     }
 }
 
@@ -115,6 +115,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 479px) {
@@ -143,6 +144,12 @@
     border: 0 !important;
     overflow: hidden;
     margin: 0 !important;
+}
+
+.check-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .form__check {

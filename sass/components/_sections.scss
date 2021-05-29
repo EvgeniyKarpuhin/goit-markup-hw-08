@@ -1,13 +1,20 @@
 .section {
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+    .section {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 }
 
 .decision {
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/mobile/mobile-head-1x.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    padding: 200px 15px;
-    max-width: 1600px;
+    padding: 118px 60px;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
@@ -46,11 +53,11 @@
 @media screen and (min-width: 1200px) {
     .decision {
         max-width: 1600px;
+        padding: 200px 15px;
     }
 }
 
 .info {
-    padding-top: 94px;
     background-color: white;
 }
 
@@ -65,6 +72,5 @@
 }
 
 .foot {
-    padding-top: 94px;
     background-color: #F5F4FA;
 }

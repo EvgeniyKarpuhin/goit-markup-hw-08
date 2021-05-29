@@ -10,9 +10,8 @@
     }
 }
 
-.main-list {
+.main-list:not(:last-child) {
     margin-bottom: 30px;
-    max-width: 450px;
 }
 
 @media screen and (min-width: 768px) {

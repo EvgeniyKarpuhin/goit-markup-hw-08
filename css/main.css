@@ -77,7 +77,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -704,15 +704,22 @@ img {
 }
 
 .section {
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .decision {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/mobile-head-1x.jpg);
   background-repeat: no-repeat;
   text-align: center;
-  padding: 200px 15px;
-  max-width: 1600px;
+  padding: 118px 60px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -751,11 +758,11 @@ img {
 @media screen and (min-width: 1200px) {
   .decision {
     max-width: 1600px;
+    padding: 200px 15px;
   }
 }
 
 .info {
-  padding-top: 94px;
   background-color: white;
 }
 
@@ -770,7 +777,6 @@ img {
 }
 
 .foot {
-  padding-top: 94px;
   background-color: #F5F4FA;
 }
 
@@ -786,9 +792,8 @@ img {
   }
 }
 
-.main-list {
+.main-list:not(:last-child) {
   margin-bottom: 30px;
-  max-width: 450px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1099,10 +1104,6 @@ img {
   color: #757575;
 }
 
-.clients {
-  padding-top: 94px;
-}
-
 .clients__type {
   display: flex;
   align-items: center;
@@ -1375,13 +1376,13 @@ img {
 
 @media screen and (min-width: 480px) {
   .modal {
-    min-width: 450px;
+    min-width: 370px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .modal {
-    min-width: 528px;
+    max-width: 448px;
   }
 }
 

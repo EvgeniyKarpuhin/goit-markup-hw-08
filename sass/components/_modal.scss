@@ -31,13 +31,13 @@
 
 @media screen and (min-width: 480px) {
     .modal {
-        min-width:450px
+        min-width:370px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .modal {
-        min-width:528px
+        max-width:448px;
     }
 }
 

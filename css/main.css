@@ -165,6 +165,17 @@ img {
   color: black;
 }
 
+.mobile-menu__logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196F3;
+}
+
+.mobile-menu__logo span {
+  color: black;
+}
+
 .footer__logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -252,6 +263,11 @@ img {
 
 .mobile-menu__icon body.modal-open {
   display: none;
+}
+
+.mobile-menu__icon {
+  width: 40px;
+  height: 40px;
 }
 
 .mobile-menu__block {

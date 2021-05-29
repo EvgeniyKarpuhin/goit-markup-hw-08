@@ -790,6 +790,7 @@ img {
 
 .pictures {
   background-color: white;
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1135,7 +1136,12 @@ img {
 
 .clients__type-block {
   max-width: 290px;
-  width: 100%;
+}
+
+@media screen and (max-width: 479px) {
+  .clients__type-block {
+    width: 100%;
+  }
 }
 
 .clients__type-block:not(:last-child) {

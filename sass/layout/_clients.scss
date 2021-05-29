@@ -1,13 +1,13 @@
-
-
 .clients__type {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .clients__type-block {
     max-width: 290px;
+    width: 100%;
 }
 
 .clients__type-block:not(:last-child) {

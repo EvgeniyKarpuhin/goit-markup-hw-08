@@ -37,12 +37,19 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 99;
+    box-sizing: border-box;
 }
 
 .mobile-menu__nav {
     font-size: 40px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 445px) {
+    .mobile-menu__nav {
+        font-size: 30px;
+    }
 }
 
 .mobile-menu__item:not(:last-child) {
